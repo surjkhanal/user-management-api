@@ -1,0 +1,108 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.App{
+  padding: 10px 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card{
+  height: 140px;
+  /* width: 100px; */
+  width: 250px;
+  border: 1px solid rgba(0,0,0,.125);
+  box-sizing: border-box;
+  padding:10px;
+  border-radius:8px;
+}
+.icon-div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.data-div {
+  display: flex;
+  align-items: center;
+}
+.data-div .name{
+  text-transform: uppercase;
+  font-weight: 500;
+  color: gray;
+}
+.view-body{
+  display: flex;
+  flex-wrap: wrap
+}
+.view-body .card{
+  margin: 10px;
+}
+
+
+/* Form */
+.formHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding:0 30px;
+  
+}
+.cross-btn{
+  display: block;
+  font-size:1.5rem;
+}
+.divider{
+  border-bottom: 1px solid #ddd;
+
+}
+.form-content{
+  padding: 10px 25px;
+}
+.form-group{
+  width: 500px;
+  border: 1px solid #ddd;
+  margin-bottom: 50px;
+}
+form label{
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 500;
+}
+form input{
+  padding: 5px;
+  color: gray;
+  border: 1px solid rgb(54, 49, 49);
+  outline: none;
+  width:90%;
+}
+form select{
+  padding: 5px;
+  color: gray;
+  /* border: none; */
+  outline: none;
+  width:97%;
+
+}
+
+.btnBox{
+  display: flex;
+  justify-content: flex-end;
+  /* width:90%; */
+}
+.btnBox button{
+  padding: 5px;
+  border: none;
+  margin:10px;
+  width:100px;
+
+}
+.btnBox button[type="reset"]{
+  background-color:#fff;
+  border: 1px solid gray;
+
+}
+.btnBox button[type="submit"]{
+  background-color:rgb(37, 136, 37);
+  color:#fff;
+}
